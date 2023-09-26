@@ -27,3 +27,10 @@ describe('AppComponent', () => {
     expect(compiled.querySelector('.content span')?.textContent).toContain('angular_unitTesting app is running!');
   });
 });
+
+describe('helloo',()=>{
+ it('',()=>{
+  const compt= new AppComponent();
+  expect(compt.hello()).toBe('Hello Wrold!');
+ })
+});
